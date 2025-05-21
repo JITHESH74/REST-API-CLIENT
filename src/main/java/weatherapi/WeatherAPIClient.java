@@ -1,13 +1,14 @@
 package weatherapi;
 
 import java.net.URI;
-    import java.net.http.HttpClient;
-    import java.net.http.HttpResponse;
-    import java.net.http.HttpRequest;
-    import org.json.JSONObject;
+import java.net.http.HttpClient;
+import java.net.http.HttpResponse;
+import java.net.http.HttpRequest;
 
-    public class WeatherAPIClient {
-    public static void main(String[] main){
+import org.json.JSONObject;
+
+public class WeatherAPIClient {
+    public static void main(String[] main) {
         try {
             //1. API URL
             String apiUrl = "https://api.open-meteo.com/v1/forecast?latitude=22&longitude=79&current_weather=true";
@@ -29,9 +30,8 @@ import java.net.URI;
             //Display the weather data
             System.out.println("weather in chennai");
             System.out.println(currentWeather.getDouble("temperature"));
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    }
+}
