@@ -63,3 +63,6 @@ Understanding geolocation-based API parameters
 Exception handling for network and JSON parsing errors
 
 This project builds a strong foundation for more complex applications that consume APIs, such as stock price fetchers, currency converters, news aggregators, or weather forecasting systems with historical data analysis.
+
+    ##OUTPUT
+![Image](https://github.com/user-attachments/assets/1c947f8f-99fe-42b7-9cc8-9999e4d1ac0b)
