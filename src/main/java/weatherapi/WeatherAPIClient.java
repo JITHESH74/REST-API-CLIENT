@@ -7,7 +7,8 @@ import java.net.http.HttpRequest;
 
 import org.json.JSONObject;
 
-public class WeatherAPIClient {
+public class
+WeatherAPIClient {
     public static void main(String[] main) {
         try {
             //1. API URL
